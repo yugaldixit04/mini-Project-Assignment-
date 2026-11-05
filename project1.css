@@ -1,0 +1,106 @@
+/* Global Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Profile Card Container (Taki sab kuch ek box mein achha dikhe) */
+.profile-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Name Styling */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1a73e8;
+}
+
+/* Button Styling */
+button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin: 8px 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #1557b0;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* FAQ Answer Paragraph */
+#faqAnswer {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 6px;
+  border-left: 4px solid #1a73e8;
+}
+
+/* Hidden Class for FAQ Toggle */
+.hidden {
+  display: none;
+}
+
+/* ==========================
+   DARK THEME STYLES
+   ========================== */
+body.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-theme .profile-card {
+  background: #1e1e1e;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-theme h1 {
+  color: #8ab4f8;
+}
+
+body.dark-theme button {
+  background-color: #8ab4f8;
+  color: #121212;
+}
+
+body.dark-theme button:hover {
+  background-color: #aecbfa;
+}
+
+body.dark-theme #faqAnswer {
+  background: #2a2a2a;
+  color: #ccc;
+  border-left-color: #8ab4f8;
+}
