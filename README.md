@@ -1,6 +1,6 @@
 # mini-Project-Assignment
 
-# 🌟 Interactive Profile Mini-Project
+# Interactive Profile Mini-Project
 
 Ek chhota aur simple web project jisme HTML, CSS, aur JavaScript ka use karke ek interactive profile banayi gayi hai. Yeh project beginner developers ke liye DOM manipulation aur event listeners sikhne ke liye ek perfect practice hai.
 
